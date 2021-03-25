@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/07 16:22:04.000.578,=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/07 16:22:22.000.197,D:\KULIAH\S6\KKN\Sistem\Project\Unit1.dfm=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/03/07 16:22:22.000.197,D:\KULIAH\S6\KKN\Sistem\Project\Unit1.pas=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/07 16:22:26.000.835,D:\KULIAH\S6\KKN\Sistem\Project\Project1.dproj=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/03/08 14:34:02.000.751,=D:\KULIAH\S6\KKN\Sistem\Project\Unit2.pas</Transaction>
+    <Transaction>2021/03/11 20:54:13.000.966,D:\KULIAH\S6\KKN\Sistem\Project\Unit2.pas=</Transaction>
+    <Transaction>2021/03/11 20:54:50.000.141,=D:\KULIAH\S6\KKN\Sistem\Project\Unit2.pas</Transaction>
+    <Transaction>2021/03/12 22:08:55.000.793,=D:\KULIAH\S6\KKN\Sistem\Project\Unit3.pas</Transaction>
+    <Transaction>2021/03/13 21:35:32.000.048,=D:\KULIAH\S6\KKN\Sistem\Project\Unit4.pas</Transaction>
+    <Transaction>2021/03/13 21:38:52.000.240,=D:\KULIAH\S6\KKN\Sistem\Project\Unit5.pas</Transaction>
+    <Transaction>2021/03/13 21:40:20.000.604,=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.pas</Transaction>
+    <Transaction>2021/03/17 21:50:34.000.468,D:\KULIAH\S6\KKN\Sistem\Project\Unit5.pas=</Transaction>
+    <Transaction>2021/03/17 21:50:40.000.849,D:\KULIAH\S6\KKN\Sistem\Project\Unit6.dfm=D:\KULIAH\S6\KKN\Sistem\Project\Unit5.dfm</Transaction>
+    <Transaction>2021/03/17 21:50:40.000.833,D:\KULIAH\S6\KKN\Sistem\Project\Unit5.pas=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.pas</Transaction>
+    <Transaction>2021/03/17 21:50:40.000.833,D:\KULIAH\S6\KKN\Sistem\Project\Unit5.dfm=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.dfm</Transaction>
+    <Transaction>2021/03/17 21:50:40.000.849,D:\KULIAH\S6\KKN\Sistem\Project\Unit6.pas=D:\KULIAH\S6\KKN\Sistem\Project\Unit5.pas</Transaction>
+    <Transaction>2021/03/17 21:51:08.000.375,D:\KULIAH\S6\KKN\Sistem\Project\Unit5.dfm=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.dfm</Transaction>
+    <Transaction>2021/03/17 21:51:08.000.375,D:\KULIAH\S6\KKN\Sistem\Project\Unit5.pas=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.pas</Transaction>
+    <Transaction>2021/03/21 16:01:25.000.341,=D:\KULIAH\S6\KKN\Sistem\Project\Unit6.pas</Transaction>
+    <Transaction>2021/03/21 16:40:47.000.293,=D:\KULIAH\S6\KKN\Sistem\Project\Unit7.pas</Transaction>
+    <Transaction>2021/03/21 23:12:55.000.694,=D:\KULIAH\S6\KKN\Sistem\Project\Unit8.pas</Transaction>
+    <Transaction>2021/03/24 11:17:24.394,D:\KULIAH\S6\KKN\Sistem\Project\Unit8.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

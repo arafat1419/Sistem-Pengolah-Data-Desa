@@ -1,0 +1,79 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TFLogin = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    EUser: TEdit;
+    EPass: TEdit;
+    BLogin: TButton;
+    Image1: TImage;
+    BClose: TButton;
+    Image2: TImage;
+    procedure BLoginClick(Sender: TObject);
+    procedure BCloseClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure Image2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FLogin: TFLogin;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit2, Unit8;
+
+procedure TFLogin.BCloseClick(Sender: TObject);
+begin
+Application.Terminate;
+end;
+
+procedure TFLogin.BLoginClick(Sender: TObject);
+begin
+Fdashboard.Show;
+FLogin.CloseModal;
+end;
+
+procedure TFLogin.FormActivate(Sender: TObject);
+begin
+FormCreate(sender);
+end;
+
+procedure TFLogin.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+Application.Terminate
+end;
+
+procedure TFLogin.FormCreate(Sender: TObject);
+begin
+EUser.Text:='';
+EPass.Text:='';
+end;
+
+procedure TFLogin.Image2Click(Sender: TObject);
+begin
+FLogin.CloseModal;
+FHelp.Show;
+end;
+
+end.

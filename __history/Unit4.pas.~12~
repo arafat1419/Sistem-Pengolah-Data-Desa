@@ -1,0 +1,84 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TFStruktur = class(TForm)
+    Label3: TLabel;
+    Label4: TLabel;
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    PDashboard: TPanel;
+    PPenduduk: TPanel;
+    PStruktur: TPanel;
+    POlah: TPanel;
+    PKeluar: TPanel;
+    PPilihan: TPanel;
+    procedure PDashboardClick(Sender: TObject);
+    procedure PPendudukClick(Sender: TObject);
+    procedure POlahClick(Sender: TObject);
+    procedure PKeluarClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FStruktur: TFStruktur;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit1, Unit5, Unit3, Unit2;
+
+procedure TFStruktur.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+Application.Terminate
+end;
+
+
+procedure TFStruktur.PDashboardClick(Sender: TObject);
+begin
+FDashboard.Show;
+FStruktur.Hide;
+end;
+
+procedure TFStruktur.PKeluarClick(Sender: TObject);
+begin
+FLogin.Show;
+FStruktur.Hide;
+end;
+
+procedure TFStruktur.POlahClick(Sender: TObject);
+begin
+FOlah.Show;
+FStruktur.Hide;
+end;
+
+procedure TFStruktur.PPendudukClick(Sender: TObject);
+begin
+FPenduduk.Show;
+FStruktur.Hide;
+end;
+
+
+end.
